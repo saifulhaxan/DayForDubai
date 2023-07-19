@@ -1,0 +1,42 @@
+{
+  "name": "vue-argon-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.4.0",
+    "apexcharts": "^3.32.1",
+    "bootstrap-vue": "^2.0.4",
+    "element-ui": "^2.15.6",
+    "flatpickr": "^4.5.1",
+    "nouislider": "^11.1.0",
+    "register-service-worker": "^1.5.2",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-carousel": "^0.18.0",
+    "vue-custom-scrollbar": "^1.4.1",
+    "vue-error-page": "^1.1.7",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-lazyload": "^1.2.6",
+    "vue-password": "^3.1.0",
+    "vue-phone-number-input": "^1.1.12",
+    "vue-qrcode-reader": "^3.1.0",
+    "vue-router": "^3.0.2",
+    "vue-scrolly": "^0.9.3",
+    "vue-upload-multiple-image": "^1.1.6",
+    "vue2-transitions": "^0.2.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.6"
+  }
+}

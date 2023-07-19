@@ -1,0 +1,1543 @@
+.mainLogin {
+  background-image   : url(/img/theme/bgLogin.png);
+  background-color   : #0096a7;
+  background-size    : 107%;
+  background-repeat  : no-repeat;
+  background-position: 115% 130%;
+}
+
+.btn-theme-primary,
+.btn-theme-secondary:hover {
+  background-color: #00a5b5;
+  color           : #fff;
+}
+
+.text-theme-primary {
+  color: #00a5b5;
+}
+
+.text-theme-secondary {
+  color: #000;
+}
+
+.btn-theme-secondary,
+.btn-theme-primary:hover {
+  background-color: #000;
+  color           : #fff;
+}
+
+.btn-round {
+  font-size    : 20px;
+  padding      : 9px;
+  width        : 290px;
+  border-radius: 50px;
+  text-align   : center;
+  box-shadow   : 0px 0px 5px 0px #0000004f;
+}
+
+.border-50 {
+  border-radius: 50px;
+}
+
+.vue-form-control input {
+  border-radius   : 50px;
+  background-color: #f9f9f9;
+}
+
+.item-box {
+  background-color: #fff;
+  margin-right    : 15px;
+  padding         : 15px;
+  border-radius   : 20px;
+}
+
+.item-box img {
+  width: 100px;
+}
+
+.VueCarousel-pagination {
+  text-align: left !important;
+}
+
+.VueCarousel-dot {
+  width           : 15px !important;
+  height          : 15px !important;
+  background-color: #ffffff !important;
+  opacity         : 0.5;
+  padding         : 0 5px !important;
+}
+
+.VueCarousel-dot--active {
+  opacity: 1;
+}
+
+.VueCarousel-dot:focus {
+  outline: none !important;
+}
+
+.vue-from-control .el-radio__input.is-checked+.el-radio__label {
+  color: #0096a7;
+}
+
+.vue-from-control .el-radio__input.is-checked .el-radio__inner {
+  border-color: #0096a7;
+  background  : #0096a7;
+}
+
+.vue-from-control .el-button--primary,
+.vue-from-control .el-button--primary:hover,
+.vue-from-control .el-button--primary:focus {
+  color           : #fff;
+  background-color: #0096a7;
+  border-color    : #0096a7;
+  border-radius   : 50px !important;
+}
+
+.bg-primary-color {
+  background-color: #0096a7;
+}
+
+.border-round>div {
+  border-radius: 20px;
+}
+
+.arrowImage {
+  right: -55px;
+}
+
+.popup-content-box {
+  padding: 10px 28px;
+}
+
+.popup-content-box p {
+  font-size: 22px;
+}
+
+.border-round .el-dialog__headerbtn {
+  background-color: #0096a7;
+  color           : #fff;
+  padding         : 7px 10px;
+  border-radius   : 50px;
+  position        : absolute;
+  top             : -10px;
+  right           : -15px;
+}
+
+.border-round .el-dialog__headerbtn i,
+.border-round .el-dialog__headerbtn:hover i {
+  color      : #fff;
+  font-weight: 900;
+}
+
+.joinBox {
+  position        : absolute;
+  top             : 40px;
+  background-color: #fff;
+  left            : 30px;
+  padding         : 0 20px;
+  border-radius   : 50px;
+}
+
+.eventDate {
+  position        : absolute;
+  bottom          : -20px;
+  right           : 30px;
+  background-color: #fff;
+  padding         : 10px 20px;
+  border-radius   : 15px;
+  box-shadow      : 1px 1px 4px #00000059;
+}
+
+.eventImage {
+  border       : 1px solid #f4f4f4;
+  border-radius: 35px;
+  max-width    : 100%;
+}
+
+.eventBox {
+  width    : 395px;
+  margin   : 0 15px 0 0;
+  max-width: 100%;
+}
+
+.headBox h2 {
+  font-size  : 24px;
+  padding-top: 40px;
+}
+
+// .scroll-container {
+//     width: 100vw;
+//     display: flex;
+//     overflow: auto;
+// }
+
+.neadBy {
+  border-radius: 40px;
+  overflow     : hidden;
+}
+
+.eventContent {
+  padding: 5px 15px;
+}
+
+.upComingevent {
+  padding-right: 20px;
+  border-radius: 25px;
+}
+
+.upComingevent {
+  margin: 15px 25px 15px 0;
+  flex  : 1 1 518px;
+}
+
+.temWidth {
+  width: 430px;
+}
+
+.eventHome {
+  margin-left: 199px;
+}
+
+.eventBox h3 {
+  font-size : 22px;
+  margin-top: 10px;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.logoImage {
+  width       : 35px;
+  margin-right: 10px;
+}
+
+.w-50px {
+  width: 25px;
+}
+
+.explore .el-tabs--border-card>div,
+.explore .el-tabs--border-card {
+  background: transparent !important;
+  box-shadow: none;
+  border    : 0;
+}
+
+.iconBox {
+  padding        : 8px;
+  width          : 90px;
+  border-radius  : 15px;
+  height         : 75px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  box-shadow     : 1px 4px 6px 3px #eeeeee;
+  margin         : 45px 0 0 0;
+}
+
+.is-active .iconBox {
+  background-color: #0096a7;
+}
+
+.is-active {
+  border: none !important;
+}
+
+.is-active .iconBox img {
+  filter: brightness(0) invert(1);
+}
+
+.explore .neadBy {
+  border-radius: 30px;
+  overflow     : hidden;
+  width        : 100%;
+}
+
+.explore .eventImage {
+  height       : 200px;
+  overflow     : hidden;
+  border-radius: 0;
+}
+
+.explore .temWidth {
+  width          : 100%;
+  height         : 200px;
+  object-fit     : cover;
+  object-position: center;
+}
+
+.explore .eventContent p {
+  font-size: 14px;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active,
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:hover {
+  color: #000 !important;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  border: none !important;
+}
+
+.headGrey {
+  background-color: #f9f9f9;
+  padding         : 8px 14px;
+}
+
+.badge {
+  position      : absolute;
+  z-index       : 99;
+  color         : #fff;
+  top           : 25px;
+  left          : 25px;
+  text-transform: capitalize;
+  padding       : 10px 20px;
+  border-radius : 50px;
+  font-size     : 14px;
+}
+
+.bg-secondary-color {
+  background-color: #076982;
+}
+
+.bg-orange-color {
+  background-color: #f16000;
+}
+
+.filter label.el-checkbox-button {
+  margin       : 0 15px;
+  border-radius: 35px !important;
+}
+
+.filter .el-checkbox-button.is-checked:first-child .el-checkbox-button__inner {
+  border-left-color: #0096a7;
+}
+
+.filter .el-checkbox-button.is-checked .el-checkbox-button__inner {
+  color             : #fff;
+  background-color  : #0096a7;
+  border-color      : #0096a7;
+  -webkit-box-shadow: -1px 0 0 0 #8cc5ff;
+  box-shadow        : -1px 0 0 0 #8cc5ff;
+}
+
+.filter label.el-checkbox-button {
+  margin       : 0 15px;
+  border-radius: 35px !important;
+}
+
+.filter label.el-checkbox-button>span,
+.filter .el-checkbox-button:first-child .el-checkbox-button__inner {
+  border-radius   : 50px !important;
+  width           : 130px;
+  padding         : 10px 25px;
+  border          : 0;
+  box-shadow      : 0px 1px 4px #ccc !important;
+  // margin-bottom: 20px;
+  font-size       : 13px;
+}
+
+.w-180px {
+  width: 180px;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #00a5b5 !important;
+  background  : #00a5b5 !important;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+  color: #00a5b5 !important;
+}
+
+.bg-light-o-color {
+  background-color: #ffb300;
+}
+
+.scroll-container {
+  position: relative;
+  margin  : auto;
+  display : flex;
+  padding : 40px 0;
+}
+
+.eventDetailBox {
+  height             : 325px;
+  background-size    : cover;
+  background-position: center;
+}
+
+.detailComing {
+  top          : 30px;
+  border-radius: 0px 23px 25px 0px;
+  left         : 0;
+}
+
+.eventDetailBox {
+  border-radius: 30px 30px 0 0;
+}
+
+.volunteersImage img {
+  margin-right: -30px;
+}
+
+.postNew {
+  position: absolute;
+  width   : 100%;
+  height  : 100%;
+  top     : 0;
+}
+
+.border-shadow {
+  border: 10px solid #70707017;
+}
+
+.submit-theme-primary {
+  background-color: #0096a7 !important;
+  color           : #fff !important;
+  font-size       : 18px !important;
+  text-align      : center !important;
+  border          : none !important;
+  border-radius   : 50px !important;
+  width           : 205px !important;
+  padding         : 15px 0;
+}
+
+.textareaStyle textarea {
+  border          : 0;
+  background-color: #f3f3f3;
+  border-radius   : 30px;
+  padding         : 20px 30px;
+}
+
+.report-box .el-dialog--center .el-dialog__body {
+  text-align: initial;
+  padding   : 0 16px 0px;
+}
+
+.h-450 {
+  height: 450px;
+}
+
+span.canceBtn {
+  position : absolute;
+  top      : -20px;
+  font-size: 24px;
+  color    : #0096a7;
+}
+
+.imageResize {
+  height         : 235px;
+  object-fit     : contain;
+  object-position: center;
+}
+
+.tabspost .el-tabs__item {
+  width      : 300px;
+  text-align : center;
+  border     : none !important;
+  font-weight: 600;
+  color      : #000;
+}
+
+.tabspost .el-tabs__nav.is-top {
+  border: none !important;
+}
+
+.tabspost .el-tabs__header.is-top {
+  display        : flex;
+  margin         : auto;
+  justify-content: center;
+}
+
+.tabspost .el-tabs__header.is-top {
+  border: none !important;
+}
+
+.tabspost .el-tabs__item.is-active {
+  box-shadow   : 2px 3px 9px 0px #ececec;
+  color        : #00a5b5;
+  border-radius: 8px;
+}
+
+.tabspost .el-tabs__nav.is-top {
+  margin-bottom: 30px;
+}
+
+.w-70px {
+  width: 70px;
+}
+
+.no-focus:focus-visible {
+  outline: none;
+}
+
+.btnBox a {
+  padding: 9px 80px;
+  margin : 0 25px !important;
+}
+
+.tabEvents img {
+  margin-right: -28px;
+  width       : 48px;
+  max-width   : 100%;
+}
+
+.eventsecton {
+  margin: 0 20px;
+}
+
+.searhBox input {
+  border-radius   : 50px;
+  background-color: #f9f9f9;
+  padding         : 24px 30px !important;
+}
+
+.searhBox span {
+  color      : #0096a7;
+  padding-top: 4px;
+  font-size  : 16px;
+  padding    : 0;
+}
+
+.templateBox .el-checkbox-group {
+  display  : flex;
+  flex-wrap: wrap;
+}
+
+.templateBox .el-checkbox-group>label {
+  flex            : 1 1 50%;
+  text-align      : center;
+  background-image: url(/img/theme/template.png);
+  background-size : cover;
+  height          : 205px;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+}
+
+.templateBox .el-checkbox-group>label>span {
+  background-color: transparent;
+  border          : none;
+}
+
+.templateBox .el-checkbox-group>label.is-checked::before {
+  content : url(/img/theme/check.png);
+  position: absolute;
+  top     : 0;
+  right   : 0;
+}
+
+.templateBox .el-checkbox-group>label.is-checked>span {
+  border          : 0;
+  background-color: transparent;
+  color           : #606266;
+  box-shadow      : none;
+}
+
+.h-adjust {
+  min-height: 100px;
+}
+
+.btnUpdate {
+  width        : 240px;
+  border-radius: 10px;
+  max-width    : 100%;
+}
+
+.textArea textarea {
+  background-color: #f9f9f9;
+  border-radius   : 20px;
+  padding         : 15px;
+}
+
+.menuButton {
+  font-size: 20px;
+  cursor   : pointer;
+}
+
+.collapseMenu {
+  min-width : 60px !important;
+  width     : 20px !important;
+  overflow  : hidden;
+  transition: 0.5s;
+}
+
+.collapseBody {
+  margin-left: 60px !important;
+  transition : 0.5s;
+}
+
+.collaspeFont h5 {
+  font-size: 10px;
+}
+
+.collaspeFont p {
+  font-size: 7px;
+}
+
+.hideItem {
+  display: none;
+}
+
+.collapseMenu .el-menu-item span {
+  display: none;
+}
+
+// organization
+
+.organization .iconBox {
+  width          : 240px;
+  margin-bottom  : 26px !important;
+  position       : relative;
+  top            : -27px;
+  height         : 55px;
+  gap            : 15px;
+  justify-content: start;
+}
+
+.organization .is-active .tabTitle {
+  color: #fff;
+}
+
+.organization .badges a {
+  background-color: #ffffffd9;
+  color           : #0096a7;
+  border-radius   : 0 50px 50px 0;
+  left            : 0;
+  padding         : 12px 34px;
+}
+
+.organization .el-dialog__body img {
+  object-fit: contain;
+}
+
+textarea {
+  outline: none;
+}
+
+.uploadBtn {
+  padding-top: 25px;
+}
+
+.uploadBtn i span {
+  font-size  : 16px;
+  padding-top: 6px;
+}
+
+.postIcon i {
+  font-size: 26px;
+}
+
+.uploadpic .el-upload--picture-card {
+  width: 100%;
+}
+
+.boxUpload {
+  visibility: hidden;
+}
+
+.showBox {
+  visibility: visible;
+}
+
+.seachBoxs .searhBox {
+  padding: 0 !important;
+}
+
+.commentArea a {
+  font-size: 16px;
+}
+
+.pastEvent .el-tabs__item {
+  width    : 210px;
+  max-width: 100%;
+}
+
+a.w-custom {
+  width      : 225px;
+  display    : block;
+  font-size  : 16px;
+  padding    : 6px 0;
+  max-width  : 100%;
+  font-weight: 500;
+}
+
+.certificateTem .templateBox .el-checkbox-group>label {
+  background: none;
+}
+
+.certificateTem .el-checkbox-button__inner,
+.certificateTem .el-checkbox-button:first-child .el-checkbox-button__inner {
+  border: none !important;
+}
+
+.certificateTem label {
+  width     : 50%;
+  text-align: center;
+}
+
+.certificateTem label span.el-checkbox-button__inner,
+.certificateTem .el-checkbox-button__inner,
+.certificateTem .el-checkbox-button:first-child .el-checkbox-button__inner {
+  border       : none !important;
+  box-shadow   : 1px 1px 12px 4px #c3bdbd !important;
+  border-radius: 20px !important;
+  padding      : 0 !important;
+}
+
+.btnCertificate {
+  font-size       : 15px;
+  background-color: #f3f3f3;
+  color           : #000;
+  padding         : 10px 20px;
+  border-radius   : 50px;
+  margin          : 9px 0 !important;
+  display         : inline-block;
+}
+
+.contentBox h4 {
+  font-size  : 20px;
+  font-weight: 600;
+}
+
+.contentBox p {
+  font-size: 14px;
+}
+
+.certificateTem .is-checked .contentBox a,
+.awardCertificate .is-checked .contentBox a {
+  background-color: #0096a7;
+  color           : #fff;
+}
+
+.certificateTem .el-checkbox-button.is-checked .el-checkbox-button__inner,
+.awardCertificate .el-checkbox-button.is-checked .el-checkbox-button__inner {
+  color           : #000;
+  background-color: transparent;
+}
+
+.logsDeatail .el-checkbox-button__inner {
+  position: relative;
+  width   : 100%;
+  display : block;
+  border  : none !important;
+}
+
+.el-checkbox-button.is-checked .el-checkbox-button__inner {
+  box-shadow: none !important;
+}
+
+.logsDeatail .el-checkbox-button {
+  position     : relative;
+  width        : 48%;
+  display      : inline-block;
+  border       : none !important;
+  text-align   : center;
+  box-shadow   : 1px 1px 8px 3px #f0f0f0;
+  border-radius: 40px !important;
+  margin       : 5px 4px;
+}
+
+.cardstab .logsDeatail .el-checkbox-button {
+  width: 32%;
+}
+
+.cardstab .el-checkbox-group label {
+  display: none !important;
+}
+
+.cardstab .el-checkbox-group label:nth-of-type(1),
+.cardstab .el-checkbox-group label:nth-of-type(2),
+.cardstab .el-checkbox-group label:nth-of-type(3) {
+  display: inline-block !important;
+}
+
+.popup-content-box .searhBox {
+  padding: 0 !important;
+}
+
+.btnTheme {
+  font-size       : 15px;
+  background-color: #f3f3f3;
+  padding         : 6px 25px;
+  color           : #000;
+  border-radius   : 50px;
+  font-weight     : 600;
+}
+
+.contentInvite p {
+  font-size: 15px;
+}
+
+.add-new-form label {
+  display      : block;
+  text-align   : unset;
+  float        : none;
+  margin-bottom: 0;
+  font-weight  : 600;
+  width        : auto !important;
+}
+
+.add-new-form .el-form-item__content {
+  margin: 0 !important;
+}
+
+.add-new-form input,
+.add-new-form select {
+  border-radius   : 50px;
+  background-color: #f9f9f9;
+}
+
+.add-time label {
+  width: auto !important;
+}
+
+.add-time .el-form-item__content {
+  margin-left: 50px !important;
+}
+
+.add-new-form .el-select {
+  display: block !important;
+}
+
+.add-new-form .el-date-editor.el-input {
+  width: 100% !important;
+}
+
+.el-slider__bar {
+  background-color: transparent !important;
+}
+
+.el-slider__button {
+  border          : 2px solid #0096a7 !important;
+  background-color: #0096a7 !important;
+}
+
+.certificateBox button {
+  background-color: #0096a7;
+  outline         : none;
+  padding         : 0;
+  border-radius   : 50px;
+  height          : 30px;
+  width           : 30px;
+  top             : 0;
+  right           : 0;
+}
+
+.certificateBox button i {
+  color: #fff !important;
+}
+
+.issueTo h3 {
+  font-size: 16px;
+}
+
+.issueTo .el-rate__icon {
+  font-size: 12px;
+}
+
+.issueTo a.w-custom {
+  width      : 207px;
+  font-size  : 14px;
+  white-space: nowrap;
+}
+
+.ap-none {
+  appearance: none;
+}
+
+.rounded-30 {
+  border-radius: 30px;
+}
+
+.eventsearch input {
+  width           : 375px;
+  max-width       : 100%;
+  background-color: #fff;
+}
+
+.apexcharts-canvas {
+  position   : relative;
+  user-select: none;
+  margin     : auto;
+}
+
+.organizationProfile .eventBox h3 {
+  font-size: 20px;
+  padding  : 5px 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color           : #fff;
+  text-decoration : none;
+  background-color: #0096a7 !important;
+}
+
+.w-btn {
+  width    : 200px;
+  padding  : 5px 0;
+  font-size: 16px;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  background-color: transparent !important;
+}
+
+.searchExplore>div {
+  margin: 0 !important;
+}
+
+.certidicateBtn a {
+  border       : 1px solid #00a5b5;
+  padding      : 6px 40px;
+  display      : inline-block;
+  border-radius: 50px;
+  margin-top   : 15px;
+}
+
+.filterBar i {
+  transform: rotate(90deg);
+  color    : #0096a7;
+}
+
+.filterBar a {
+  padding      : 6px 13px;
+  font-size    : 22px;
+  border-radius: 14px;
+}
+
+.internationalFeild input {
+  background-color: #f9f9f9 !important;
+  border-radius   : 50px !important;
+  border          : 1px solid #dcdfe6 !important;
+}
+
+.internationalFeild>div {
+  gap: 15px;
+}
+
+input#MazPhoneNumberInput-7_phone_number {
+  border-radius: 50px !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #00a5b5 !important;
+  color           : #FFF;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #00a5b5 !important;
+}
+
+.lw-25 {
+  width: 175px;
+}
+
+.add-new-volunteer input {
+  border: none;
+}
+
+.fa-fx1 {
+  font-size: 14px;
+}
+
+.h-50 input,
+.h-50 {
+  height          : 60px;
+  background-color: transparent;
+}
+
+.imageCircle {
+  width          : 300px;
+  object-fit     : contain;
+  object-position: center;
+  height         : 75px;
+  border-radius  : 50px;
+}
+
+.eventsectionLive .tabspost .el-tabs__item {
+  min-width: 220px;
+  width    : auto;
+}
+
+.d-flexs {
+  display: flex;
+}
+
+.el-collapse-item__header {
+  background-color: #F9F9F9 !important;
+  color           : #000;
+  border          : 1px solid #EBEEF5;
+  font-size       : 16px !important;
+  margin-bottom   : 30px;
+  border-radius   : 10px;
+  padding         : 0 5px;
+}
+
+.trashBtn {
+  right    : -30px;
+  top      : 10px;
+  font-size: 20px;
+  color    : #0096a7 !important;
+}
+
+.el-checkbox-button.is-checked .el-checkbox-button__inner {
+  color           : #FFF;
+  background-color: #0096a7 !important;
+}
+
+.manageFilter>div {
+  display        : flex;
+  flex-wrap      : wrap;
+  justify-content: space-between;
+}
+
+
+.manageFilter>div>label>span,
+.manageFilter .el-checkbox-button:first-child .el-checkbox-button__inner {
+  border       : 1px solid #dddddd96 !important;
+  outline      : none;
+  border-radius: 10px !important;
+  box-shadow   : -1px 3px 3px 0px #e1dede !important;
+  padding      : 20px 40px;
+  font-size    : 16px;
+}
+
+
+.input-transparent>* {
+  background-color: transparent !important;
+  border          : none !important;
+  padding         : 0 !important;
+}
+
+.w-label {
+  width: 90px;
+}
+
+.eventDetail .el-collapse,
+.contentManagment .el-collapse {
+  border: none !important;
+}
+
+.w-255px {
+  min-width       : 190px;
+  max-width       : 100%;
+  background-color: whitesmoke !important;
+  border          : none !important;
+  color           : #000 !important;
+}
+
+.el-input,
+.el-select {
+  position : relative;
+  font-size: 14px;
+  display  : inline-block;
+  width    : 100%;
+}
+
+.sideBar .el-menu-item {
+  position: relative;
+}
+
+.sideBar .el-menu-item a {
+  position    : absolute;
+  top         : 3px;
+  bottom      : 0;
+  right       : 0;
+  left        : 0;
+  padding-left: 50px;
+}
+
+.form0 .el-form-item {
+  margin-bottom: 0;
+}
+
+.form0 .iconBoxs {
+  background-color: #0096a7;
+  color           : #fff;
+  padding         : 5px 10px;
+  border-radius   : 50px;
+}
+
+.form0 {
+  background-color: #F9F9F9;
+  margin          : 15px 0;
+  padding         : 25px 20px 18px;
+  border-radius   : 15px;
+}
+
+.addAdmin .el-checkbox__inner::after {
+  -webkit-box-sizing: content-box;
+  box-sizing        : content-box;
+  content           : "";
+  border            : 1px solid #a59b9b;
+  border-left       : 0;
+  border-top        : 0;
+  height            : 10px;
+  left              : 7px;
+  position          : absolute;
+  top               : 2px;
+}
+
+
+.addAdmin span.el-checkbox__inner {
+  background  : transparent !important;
+  color       : white;
+  border-color: #b9b4b4 !important;
+  width       : 20px;
+  height      : 20px;
+}
+
+.addAdmin .table-bordered td,
+.addAdmin .table-bordered th {
+  border-left : none;
+  border-right: none;
+}
+
+.addAdmin .table thead th {
+  vertical-align: bottom;
+  border-bottom : none;
+}
+
+.rounded-50 {
+  border-radius: 50px;
+}
+
+.rounded-35 {
+  border-radius: 35px;
+}
+
+.iconStyle {
+  background-color: #00a5b5;
+  padding         : 8px 9px;
+  color           : #fff;
+  border-radius   : 50px;
+  position        : relative;
+  top             : 35px;
+  right           : 30px;
+}
+
+.iconStyle i {
+  color    : #fff;
+  font-size: 14px;
+}
+
+.rounded-100 {
+  border-radius: 100px;
+}
+
+.volunteer .el-input.el-input--prefix,
+.volunteer .el-select {
+  width: auto !important;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+  font-size: 30px;
+}
+
+.status-style * {
+  border          : none !important;
+  background-color: transparent !important;
+}
+
+.status-style .el-input {
+  width    : 150px;
+  max-width: 100%;
+}
+
+.el-select-dropdown__item.selected {
+  color      : #00a5b5 !important;
+  font-weight: 700;
+}
+
+.status-style * {
+  font-size: 16px;
+}
+
+.status-style {
+  position: relative;
+  top     : -9px;
+}
+
+.adminBar .el-menu-item {
+  padding-left      : 10px !important;
+  font-size         : 13px;
+  color             : #303133;
+  padding           : 0 20px;
+  cursor            : pointer;
+  -webkit-transition: border-color .3s, background-color .3s, color .3s;
+  transition        : border-color .3s, background-color .3s, color .3s;
+  -webkit-box-sizing: border-box;
+  box-sizing        : border-box;
+}
+
+.adminBar .el-menu-item [class^=el-icon-] {
+  margin-right  : 5px;
+  width         : 19px;
+  text-align    : center;
+  font-size     : 16px;
+  vertical-align: middle;
+}
+
+.adminBar .sideBar .el-menu-item a {
+  position    : absolute;
+  top         : 3px;
+  bottom      : 0;
+  right       : 0;
+  left        : -19px;
+  padding-left: 50px;
+}
+
+.el-date-table td.end-date span,
+.el-date-table td.start-date span {
+  background-color: #00a5b5 !important;
+}
+
+.imageBox img {
+  width     : 60px;
+  height    : 60px;
+  object-fit: cover;
+}
+
+.iconBoxCard img {
+  width        : 100%;
+  height       : auto;
+  object-fit   : cover;
+  border-radius: 91px;
+}
+
+.iconBoxCard {
+  width      : 75px;
+  height     : 75px;
+  flex-shrink: 0;
+}
+
+.titleUser h4 {
+  font-size: 16px;
+  color    : #000;
+}
+
+.p-14 {
+  font-size: 14px;
+}
+
+.contentUser p {
+  text-overflow     : ellipsis;
+  overflow          : hidden;
+  display           : -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp        : 1;
+  -webkit-box-orient: vertical;
+}
+
+.rounded-end {
+  border-radius: 18px 18px 18px 0;
+}
+
+.chatBoxArea {
+  height: 595px;
+}
+
+.fa-18 {
+  font-size: 26px;
+}
+
+.templateImage img {
+  /* object-fit: cover; */
+  object-fit: contain;
+  width     : 50px;
+  height    : 50px;
+}
+
+// .certificateDetails-card .mapBox {
+//   width: 200px;
+//   max-width: 100%;
+// }
+
+.certificateDetails-card .mapBox p {
+  font-size: 13px;
+}
+
+.certificateDetails-card .iconBoxs span {
+  font-size: 14px;
+}
+
+.statusBtn {
+  display      : block;
+  width        : 110px;
+  max-width    : 100%;
+  text-align   : center;
+  padding      : 6px 0;
+  border-radius: 50px;
+}
+
+
+@media (min-width: 970px) {
+  .searchExplore>div {
+    margin: 0 !important;
+    width : 400px;
+  }
+
+  .h-f100 {
+    height: 100vh;
+  }
+
+  .explore .el-tabs__nav {
+    text-align: center;
+    float     : none;
+  }
+}
+
+@media(max-width: 640px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 1170px) {
+  .eventBox {
+    width    : 420px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+
+  .commentbox h3 {
+    font-size: 20px;
+  }
+
+  .commentbox h4 {
+    font-size: 16px;
+  }
+
+  .commentbox p {
+    font-size: 14px;
+  }
+
+  .datBox p {
+    font-size: 10px;
+  }
+
+  .datBox {
+    width: 125px;
+  }
+
+  .attendance h3 {
+    font-size: 20px;
+  }
+
+  .attendance h5 {
+    font-size: 16px;
+  }
+
+  .commenTitle h4 {
+    font-size  : 16px;
+    font-weight: 900 !important;
+  }
+
+  .w-70px {
+    width: 40px;
+  }
+
+  .btnBox a {
+    padding      : 7px 0;
+    margin       : 0 25px !important;
+    display      : inline-block;
+    text-align   : center;
+    margin-bottom: 10px !important;
+  }
+
+  .btn-round {
+    font-size: 14px;
+    padding  : 7px;
+    width    : 160px;
+  }
+
+  .searchcontent h4 {
+    font-size: 14px;
+  }
+
+  .volunteersImage img {
+    margin-right : -22px;
+    margin-bottom: 10px;
+    width        : 56px;
+    max-width    : 100%;
+    margin-left  : 5px;
+    margin-top   : 8px;
+    display      : inline-block;
+  }
+
+  .imageCollapse>img {
+    display: inline-block;
+    width  : 50px;
+  }
+
+  .eventDetail span {
+    font-size: 14px;
+  }
+
+  .count {
+    position        : absolute;
+    background-color: #f31515;
+    color           : #fff;
+    padding         : 1px 5px;
+    font-size       : 9px;
+    border-radius   : 50px;
+    left            : 15px;
+    top             : -6px;
+  }
+
+  .profile-info li span,
+  .profile-info li i,
+  .profile-info a {
+    font-size: 13px;
+  }
+
+  .menuButton {
+    font-size: 16px;
+    cursor   : pointer;
+  }
+
+  .headBoxs h2 {
+    font-size: 16px;
+  }
+
+  .postBtn a {
+    padding  : 5px 36px !important;
+    font-size: 14px;
+  }
+
+  .eventDetailSecion i,
+  .eventDetailSecion p {
+    font-size: 13px;
+  }
+
+  .tabspost .el-tabs__item {
+    width: 170px;
+  }
+
+  .eventContent h3 {
+    font-size: 20px;
+  }
+
+  .eventContent p {
+    font-size: 12px;
+  }
+
+  .authorContent h4 {
+    font-size: 14px;
+  }
+
+  .autthorImage img {
+    width: 45px;
+  }
+
+  .authorContent p {
+    font-size: 11px;
+  }
+
+  .eventDetail .w-50 {
+    width: auto !important;
+  }
+
+  .eventDetail .mapBox {
+    width: auto;
+  }
+
+  .filter label.el-checkbox-button {
+    margin: 6px 2px;
+  }
+
+  .mb-ft {
+    font-size: 13px;
+  }
+
+  .el-radio {
+    display      : block !important;
+    margin-right : 0;
+    margin-bottom: 20px;
+  }
+
+  .w-180px {
+    width    : 126px;
+    padding  : 9px 0;
+    font-size: 14px;
+    display  : inline-block;
+  }
+
+  .upComingevent {
+    margin: 15px 0;
+  }
+
+  .eventBox {
+    width: 255px;
+  }
+
+  .joinBox p {
+    font-size: 14px;
+  }
+
+  .joinBox p i {
+    padding-right: 3px;
+  }
+
+  .joinBox {
+    top: 15px;
+  }
+
+  .eventDate {
+    position: absolute;
+    bottom  : 5px;
+  }
+
+  .eventsecton {
+    margin: 0 0 !important;
+  }
+}
+
+.textareaStyle .el-checkbox-button.is-checked .el-checkbox-button__inner {
+  color           : #000 !important;
+  background-color: transparent !important;
+}
+
+a.categoryTab {
+  border            : 1px solid #dddddd96 !important;
+  outline           : none;
+  border-radius     : 10px !important;
+  -webkit-box-shadow: -1px 3px 3px 0px #e1dede !important;
+  box-shadow        : -1px 3px 3px 0px #e1dede !important;
+  padding           : 20px 40px;
+  font-size         : 16px;
+  color             : #000;
+  flex-grow         : 1;
+}
+
+.manageFilter {
+  display  : flex;
+  gap      : 20px;
+  flex-wrap: wrap;
+}
+
+// .adminMain {
+//   margin-left       : 0px !important;
+//   -webkit-transition: 0.5s;
+//   transition        : 0.5s;
+// }
+// .sideBarMenu {
+//   transform: translateX(-210px);
+// }
+
+// @media(max-width: 1480px) {
+//   .sideBar {
+//     overflow-y: scroll;
+// }
+// }
